@@ -1,7 +1,7 @@
 # Entrega 1 - Criptografia Assimétrica e Confiança (Pipeline GameDev)
 
 ## 1. Problema e Objetivo
-Trata-se de uma solução criptográfica para o envio seguro de assets confidenciais de um jogo 2D (script conceitual `.txt` e *spritesheet* em pixel art `.png`) transmitidos do Diretor Criativo (Emissor) para o Desenvolvedor Principal (Receptor). A solução garante confidencialidade, integridade e autenticidade.
+Trata-se de uma solução criptográfica para o envio seguro de assets confidenciais de um jogo 2D (script conceitual .txt e *spritesheet* em pixel art .png) transmitidos do Diretor Criativo (Emissor) para o Desenvolvedor Principal (Receptor). A solução garante confidencialidade, integridade e autenticidade.
 
 ## 2. Ambiente e Tecnologias
 * **Linguagem:** Python 3.12 (Google Colab)
