@@ -18,10 +18,10 @@ Trata-se de uma solução criptográfica para o envio seguro de assets confidenc
 2. Certifique-se de que a pasta Segurança da Informação/Entrega 1 no seu Google Drive contém os arquivos heroi.png e script.txt.
 3. Execute as células em ordem sequencial.
 
-# Testes e Evidências
+# Testes
 * **Teste Positivo:** Demonstração da decifragem bem-sucedida e reconstituição perfeita dos arquivos heroi_restaurado.png e script_restaurado.txt após a validação da assinatura RSA-PSS.
-* **Teste Negativo 1:** Tentativa de decifrar a chave AES utilizando a chave privada incorreta (impostor_priv.pem), resultando no bloqueio da operação pelo RSA-OAEP.
-* **Teste Negativo 2:** Tentativa de validar a assinatura com uma chave pública incorreta (impostor_pub.pem), resultando na exceção InvalidSignature.
+* **Teste Negativo 1:** Tentativa de decifrar a chave AES utilizando a chave privada incorreta, resultando no bloqueio da operação pelo RSA-OAEP.
+* **Teste Negativo 2:** Tentativa de validar a assinatura com uma chave pública incorreta, resultando na exceção InvalidSignature.
 
 # Riscos, Limitações e PKI
 * **Gestão de Chaves:** Em ambiente de produção, as chaves privadas não devem ser mantidas em ficheiros locais de disco, sendo recomendado o uso de cofres de segredos (Key Vaults / HSM).
