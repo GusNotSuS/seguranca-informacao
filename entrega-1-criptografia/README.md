@@ -1,4 +1,4 @@
-# Entrega 1 - Criptografia Assimétrica e Confiança
+m,# Entrega 1 - Criptografia Assimétrica e Confiança
 
 # Problema e Objetivo
 Trata-se de uma solução criptográfica para o envio seguro de assets confidenciais de um jogo 2D (script conceitual .txt e *spritesheet* em pixel art .png) transmitidos do Diretor Criativo (Emissor) para o Desenvolvedor Principal (Receptor). A solução garante confidencialidade, integridade e autenticidade.
@@ -19,9 +19,9 @@ Trata-se de uma solução criptográfica para o envio seguro de assets confidenc
 3. Execute as células em ordem sequencial (Células 1 a 5).
 
 # Testes e Evidências
-* **Teste Positivo (Célula 3):** Demonstração da decifragem bem-sucedida e reconstituição perfeita dos arquivos heroi_restaurado.png e script_restaurado.txt após a validação da assinatura RSA-PSS.
-* **Teste Negativo 1 :** Tentativa de decifrar a chave AES utilizando a chave privada incorreta (impostor_priv.pem), resultando no bloqueio da operação pelo RSA-OAEP.
-* **Teste Negativo 2 :** Tentativa de validar a assinatura com uma chave pública incorreta (impostor_pub.pem), resultando na exceção InvalidSignature.
+* **Teste Positivo:** Demonstração da decifragem bem-sucedida e reconstituição perfeita dos arquivos heroi_restaurado.png e script_restaurado.txt após a validação da assinatura RSA-PSS.
+* **Teste Negativo 1:** Tentativa de decifrar a chave AES utilizando a chave privada incorreta (impostor_priv.pem), resultando no bloqueio da operação pelo RSA-OAEP.
+* **Teste Negativo 2:** Tentativa de validar a assinatura com uma chave pública incorreta (impostor_pub.pem), resultando na exceção InvalidSignature.
 
 # Riscos, Limitações e PKI
 * **Gestão de Chaves:** Em ambiente de produção, as chaves privadas não devem ser mantidas em ficheiros locais de disco, sendo recomendado o uso de cofres de segredos (Key Vaults / HSM).
