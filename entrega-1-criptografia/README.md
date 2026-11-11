@@ -1,4 +1,4 @@
-# Entrega 1 - Criptografia Assimétrica e Confiança (Pipeline GameDev)
+# Entrega 1 - Criptografia Assimétrica e Confiança
 
 # Problema e Objetivo
 Trata-se de uma solução criptográfica para o envio seguro de assets confidenciais de um jogo 2D (script conceitual .txt e *spritesheet* em pixel art .png) transmitidos do Diretor Criativo (Emissor) para o Desenvolvedor Principal (Receptor). A solução garante confidencialidade, integridade e autenticidade.
